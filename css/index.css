@@ -177,12 +177,11 @@ nav a {
 .middle-content .boxes .box {
     width: 7%;
     height: 150px;
-}
-
-/* .middle-content .boxes {
+    margin-right: 170px;
     display: flex;
-    flex-wrap: wrap;
-} */
+    justify-content: space-around;
+     
+}
 
  .box-one {
      background-color: teal;
@@ -223,3 +222,4 @@ nav a {
 .box-ten {
     background-color: dodgerblue;
 }
+
