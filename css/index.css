@@ -149,6 +149,7 @@ footer nav a {
 .container { 
     max-width: 1000px;
     margin: 0 auto;
+    
 }
 
 nav {
@@ -176,7 +177,7 @@ nav a {
 
 .middle-content .boxes .box {
     width: 12.5%;
-    height: 150px;
+    height: 100px;
     display: flex;
     justify-content: space-around;
      
