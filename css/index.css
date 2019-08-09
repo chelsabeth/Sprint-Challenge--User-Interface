@@ -231,4 +231,36 @@ nav a {
     margin: 0 auto;
 }
 
+.skyline {
+    width: 100%;
+    margin-bottom: 20px;
+}
 
+.about {
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+
+.top-middle-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.bottom-middle-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10%;
+    border: 2px solid black;
+    font-size: 17px;
+    margin-top: 15px;
+}
