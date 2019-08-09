@@ -147,7 +147,7 @@ footer nav a {
 /* My code start here */
 
 .container { 
-    width: 80%;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -175,9 +175,8 @@ nav a {
 }
 
 .middle-content .boxes .box {
-    width: 7%;
+    width: 12.5%;
     height: 150px;
-    margin-right: 170px;
     display: flex;
     justify-content: space-around;
      
@@ -226,8 +225,8 @@ nav a {
 
 /* my code start here */
 
-.container about-page {
-    max-width: 80%;
+.container.about-page {
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -239,6 +238,7 @@ nav a {
 .about {
     border-bottom: 1px dashed black;
     margin-bottom: 30px;
+    text-align: left;
 }
 
 .top-middle-section {
@@ -262,5 +262,23 @@ button {
     border-radius: 10%;
     border: 2px solid black;
     font-size: 17px;
-    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+.strat,
+.how-we-work {
+    border-bottom: 1px dashed black;
+}
+
+.places-we-work,
+.collaboration {
+    border-bottom: 1px dashed black;
 }
